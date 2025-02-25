@@ -1,6 +1,6 @@
 # Frontend Mentor - Contact form solution
 
-This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,12 +10,7 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -36,13 +31,10 @@ Users should be able to:
 
 ![](assets/images/screenshot.png)
 
-
-
-
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/contact-form-1bz2xOVNef)
+- Live Site URL: [live site URL](https://abdulrrahmann.github.io/contact-form/)
 
 ## My process
 
@@ -54,9 +46,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-
-
 ## Author
 
 - Frontend Mentor - [@abdulrrahmann](https://www.frontendmentor.io/profile/abdulrrahmann)
-
