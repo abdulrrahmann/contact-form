@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Contact form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" novalidate>
+        <h2>Contact Us</h2>
+
+        <div class="row name-control">
+          <!-- First Name -->
+          <label for="fname">First Name</label>
+          <input type="text" name="firstName" id="fname" autocomplete="name" />
+          <span class="d-none info">This field is required</span>
+
+          <!-- Last Name -->
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lname"
+            autocomplete="family-name"
+          />
+          <span class="d-none info">This field is required</span>
+        </div>
+
+        <div class="row email-control">
+          <!-- Email -->
+          <label for="email">Email Adress</label>
+          <input type="email" name="email" id="email" autocomplete="email" />
+          <span class="d-none error">Please enter a valid email address</span>
+          <span class="d-none info">This field is required</span>
+        </div>
+        <div class="row query-control">
+          <!-- Query Type -->
+          <span>Query Type</span>
+          <div class="radio-group">
+            <input
+              type="radio"
+              name="query"
+              value="General Enquiry"
+              id="generalEnq"
+            />
+            <label for="generalEnq">General Enquiry</label>
+          </div>
+          <div class="radio-group">
+            <input
+              type="radio"
+              name="query"
+              value="Support Request"
+              id="supportRe"
+            />
+            <label for="supportRe">Support Request</label>
+          </div>
+          <div class="cleafix"></div>
+          <span class="d-none info">Please select a query type</span>
+        </div>
+
+        <div class="row message-control">
+          <!-- Message -->
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+          <span class="d-none info">This field is required</span>
+        </div>
+
+        <div class="row checkbox-control">
+          <!-- Checkbox -->
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">I consent to being contacted by the team</label>
+          <span class="info d-none"
+            >To submit this form, please consent to being contacted</span
+          >
+        </div>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div class="notification d-none">
+      <div class="head">
+        <img src="assets/images/icon-success-check.svg" alt="" />
+        <h4>Message Sent!</h4>
+      </div>
+
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+  </body>
+</html>
